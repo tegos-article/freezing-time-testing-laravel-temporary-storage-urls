@@ -1,3 +1,4 @@
+# Freezing Time: Testing Laravel Temporary Storage URLs
 
 In a previous article, [Testing Temporary URLs in Laravel Storage](https://dev.to/tegos/testing-temporary-urls-in-laravel-storage-20p7), we explored two techniques to test Laravel's `Storage::temporaryUrl()` method. While `Storage::fake` doesn't natively support `temporaryUrl`, we demonstrated how to use mocking to simulate the behavior effectively. If you haven’t read it yet, consider starting there to understand the foundation of testing temporary URLs in Laravel.
 
